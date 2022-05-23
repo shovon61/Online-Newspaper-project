@@ -1,0 +1,16 @@
+<h2>recommendation works!</h2>
+<h3>Api Calls Here</h3>
+<table border="2">
+    <tr>
+        <td>ID</td>
+        <td>User Id</td>
+        <td>Title</td>
+        <td>Body</td>
+    </tr>
+    <tr *ngFor="let item of Examples">
+        <td>{{item.id}}</td>
+        <td>{{item.userId}}</td>
+        <td>{{item.title}}</td>
+        <td>{{item.body}}</td>
+    </tr>
+</table>
